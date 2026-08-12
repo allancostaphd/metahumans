@@ -22,11 +22,33 @@ actually said.
 |---|---|
 | ![Mason close-up](media/shot-mason.jpg) | ![Zoe close-up](media/video-thumb.jpg) |
 
+## Join the show
+
+Press **M** during a live episode, say your piece, press **M** again —
+your words are transcribed locally and dropped into the conversation.
+The presenters acknowledge the listener and take the topic wherever you
+pointed it. The chat overlay on the right shows the whole exchange,
+with your comment highlighted as **OUVINTE** (listener):
+
+![The live chat overlay, with a listener comment](media/shot-live-chat.jpg)
+
+Voice input needs a local Whisper speech service running on the same
+machine; text comments work anywhere through the API
+(`POST /api/podcast/say`).
+
 ## Features
 
 - **Live podcast mode** — a control page served by the game itself:
   write the episode topic and knowledge base, press LIVE, and watch the
   transcript appear as they speak. Every new episode starts fresh.
+- **Join the show with your voice** — press **M** (or click the mic
+  button), speak, and the presenters react to your comment live, then
+  steer the conversation from it. Speech is transcribed by a local
+  Whisper model; no cloud, no per-use cost.
+- **Live chat overlay** — the conversation scrolls on screen like a
+  chat, color-coded per speaker, with your comments labeled LISTENER.
+  The already-generated lines keep playing while your reply is prepared,
+  so the show never goes silent.
 - **Two autonomous presenters** — each with their own voice, personality
   and memory of the conversation
 - **Scripted episodes too** — the included Python script records a fixed
@@ -145,7 +167,8 @@ file.
 
 Press **ESC** for graphics quality, resolution, display mode, both URLs
 (podcast control page and API) and the quit button; **H** toggles the
-diagnostics HUD; **1/2/3** fly the camera between the saved angles.
+HUD and the chat overlay; **1/2/3** fly the camera between the saved
+angles; **M** is the producer microphone during a live episode.
 
 ![In-game settings menu](media/settings-menu.png)
 
