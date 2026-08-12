@@ -1,8 +1,8 @@
 # ZCore AI - MetaHuman Podcast Studio
 
-[![Watch the demo: two AI presenters record a podcast live (2 min)](media/video-thumb.jpg)](https://youtu.be/fYJfOxpsEqw)
+[![Watch the demo: two AI presenters record a podcast live (2 min)](media/video-thumb.jpg)](https://youtu.be/IQV3oNCnil8)
 
-<p align="center"><b><a href="https://youtu.be/fYJfOxpsEqw">▶ Watch the 2-minute demo on YouTube</a></b></p>
+<p align="center"><b><a href="https://youtu.be/IQV3oNCnil8">▶ Watch the 2-minute demo on YouTube</a></b></p>
 
 Two photoreal AI presenters record podcast episodes entirely on their
 own: natural voices, real-time lipsync, lifelike gaze, and TV-style
